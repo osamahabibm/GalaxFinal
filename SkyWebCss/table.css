@@ -1,0 +1,171 @@
+.header-title {
+  background: url(../imgs/all.png);
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+
+.header-title .container {
+  height: 184px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.header-title .container h3 {
+  padding: 1rem 0;
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: "ArbFONTS";
+  font-weight: 600;
+}
+
+.header-title .container h3 i {
+  font-size: 1rem;
+  padding-left: 0.5rem;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-title {
+    display: none;
+  }
+}
+
+.table-section {
+  -webkit-animation: fadeEffect 2s;
+          animation: fadeEffect 2s;
+          margin-bottom: 3rem;
+}
+
+.table-section .center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.table-section .center table {
+  width: 900px;
+  margin: 2rem 0;
+}
+
+.table-section .center table thead {
+  background: #0d8bca;
+  color: #fff;
+}
+
+.table-section .center table thead tr th {
+  text-align: center;
+  border: 1px solid #efefef;
+  border-left: 1px solid #ffffff;
+  padding: 15px;
+}
+
+.table-section .center table tbody tr td {
+  text-align: center;
+  padding: 13px;
+  border: 1px solid #efefef;
+  font-weight: 700;
+}
+
+.table-section .center table tbody tr td a {
+  background: #13c417;
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+}
+
+@media (max-width: 768px) {
+  .table-section .center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .table-section .center table {
+    width: 800px;
+    margin: 2rem 0;
+  }
+  .table-section .center table thead {
+    display: none;
+  }
+  .table-section .center table tbody {
+    width: 100% !important;
+    border-radius: 10px;
+  }
+  .table-section .center table tbody tr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background: #0d8bca;
+    margin-bottom: 0.5rem;
+    width: 100% !important;
+    border-radius: 10px;
+  }
+  .table-section .center table tbody tr td {
+    text-align: center;
+    padding: 15px;
+    border: none;
+    font-size: 13px;
+    font-weight: 700;
+    width: 100%;
+    border-bottom: 1px solid #efefef;
+    color: #fff;
+  }
+  .table-section .center table tbody tr td a {
+    background: #13c417;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+  }
+}
+
+.table-section table tbody tr td:last-child {
+  border-bottom: none !important;
+}
+/*# sourceMappingURL=table.css.map */

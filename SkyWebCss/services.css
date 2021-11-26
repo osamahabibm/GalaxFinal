@@ -1,0 +1,333 @@
+.header-title {
+  background: url(../imgs/all.png);
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+
+.header-title .container {
+  height: 184px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.header-title .container h3 {
+  padding: 1rem 0;
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: "ArbFONTS";
+  font-weight: 600;
+}
+
+.header-title .container h3 i {
+  font-size: 1rem;
+  padding-left: 0.5rem;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-title {
+    display: none;
+  }
+}
+
+.services {
+  -webkit-animation: fadeEffect 2s;
+          animation: fadeEffect 2s;
+          margin-bottom: 3rem;
+}
+
+.services .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.services .container .row {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
+  margin: 2rem 0;
+}
+
+.services .container .row div {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
+}
+
+.services .container .row div h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: "ArbFONTS";
+  margin-bottom: 2rem;
+}
+
+.services .container .row div .check {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+  -ms-flex-wrap: wrap !important;
+      flex-wrap: wrap !important;
+  -webkit-box-pack: start !important;
+      -ms-flex-pack: start !important;
+          justify-content: flex-start !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  padding-left: 2rem;
+  margin-right: 8rem;
+  margin-bottom: 1rem;
+  width: 1000px;
+}
+
+.services .container .row div form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.services .container .row div form input {
+  border: 1px solid #6e2222;
+  width: 500px;
+  margin-bottom: 1rem;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.services .container .row div form input::-webkit-input-placeholder {
+  color: #000;
+}
+
+.services .container .row div form input:-ms-input-placeholder {
+  color: #000;
+}
+
+.services .container .row div form input::-ms-input-placeholder {
+  color: #000;
+}
+
+.services .container .row div form input::placeholder {
+  color: #000;
+}
+
+.services .container .row div form input:focus {
+  -webkit-box-shadow: #0d8bca 0px 3px 8px;
+          box-shadow: #0d8bca 0px 3px 8px;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+
+.services .container .row div form .text input {
+  padding-bottom: 8rem;
+}
+
+.services .container .row div form .text input:focus {
+  -webkit-box-shadow: #0d8bca 0px 3px 8px;
+          box-shadow: #0d8bca 0px 3px 8px;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+
+.services .container .row div form .form-select {
+  background-position: left 0.75rem center !important;
+  border: 1px solid #6e2222;
+  width: 500px;
+  margin-bottom: 1rem;
+  padding: 5px 20px;
+  border-radius: 4px;
+}
+
+.services .container .row div form .form-select:focus {
+  -webkit-box-shadow: #0d8bca 0px 3px 8px;
+          box-shadow: #0d8bca 0px 3px 8px;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+
+.services .container .row div form .btn-from {
+  width: 500px;
+  padding: 10px 20px;
+  background: #0d8bca;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.services .container .row div form .btn-from:hover {
+  background: #0c5a81;
+  -webkit-transition: 0.2s linear all;
+  transition: 0.2s linear all;
+}
+
+.services .container .row div form .btn-from a {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  width: 100%;
+}
+
+@media (max-width: 1170.5px) {
+  .check {
+    width: 80% !important;
+  }
+}
+
+@media (max-width: 767.5px) {
+  .check {
+    width: 100% !important;
+    margin-right: 4rem !important;
+  }
+}
+
+@media (max-width: 580.5px) {
+  .services h3 {
+    font-size: 0.9rem !important;
+  }
+  .check {
+    width: 100% !important;
+    margin-right: 0rem !important;
+    padding-right: 2rem !important;
+  }
+  form {
+    width: 100%;
+  }
+  form input {
+    width: 100% !important;
+  }
+  form select {
+    width: 100% !important;
+  }
+  form .text {
+    width: 100%;
+  }
+  form .btn-from {
+    width: 100% !important;
+  }
+}
+
+.from-control {
+  display: block !important;
+  position: relative;
+  padding-left: 50px;
+  margin-bottom: 1.2rem;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 700;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.from-control input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #0d8bca;
+  margin-right: -34px;
+  border-radius: 4px;
+}
+
+.from-control input:checked ~ .checkmark {
+  background-color: #0d8bca;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.from-control input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.from-control .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/*# sourceMappingURL=services.css.map */

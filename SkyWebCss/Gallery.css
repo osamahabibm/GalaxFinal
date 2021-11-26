@@ -1,0 +1,323 @@
+.header-title {
+    background: url(../imgs/all.png);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-title .container {
+    height: 184px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.header-title .container h3 {
+    padding: 1rem 0;
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: "ArbFONTS";
+    font-weight: 600;
+}
+
+.header-title .container h3 i {
+    font-size: 1rem;
+    padding-left: 0.5rem;
+}
+
+@-webkit-keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-title {
+        display: none;
+    }
+
+    .gallary-pager {
+        margin: 0 !important;
+    }
+}
+
+.pull-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #0d8bca !important;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-top: 3rem !important;
+    padding-bottom: 2rem;
+}
+
+span.paginator-prev {
+    cursor: pointer !important;
+    color: #fff !important;
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    border-radius: 3px !important;
+    background: #0d8bca;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-weight: 600;
+    margin: 0 1rem;
+    padding-bottom: 4px;
+    padding-right: 2px;
+    font-weight: 700;
+}
+
+span.paginator-next {
+    cursor: pointer !important;
+    color: #fff !important;
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    border-radius: 3px !important;
+    background: #0d8bca;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-weight: 600;
+    margin: 0 1rem;
+    padding-bottom: 4px;
+    padding-left: 2px;
+    font-weight: 700;
+}
+
+#pagingControls {
+    text-align: center !important;
+    padding-top: 2rem !important;
+}
+
+#pagingControls ul {
+    display: inline-block !important;
+}
+
+#pagingControls li {
+    display: inline-block !important;
+}
+
+#container {
+    min-height: auto !important;
+}
+
+.gallary-pager {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background: #e9e9e9;
+}
+
+.gallary-pager .container {
+    padding: 50px 0;
+}
+
+.gallary-pager .container .title-gallary {
+    padding: 2rem;
+}
+
+.gallary-pager .container .title-gallary h3 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.gallary-pager .container .title-gallary h3 span {
+    padding-left: 10px;
+}
+
+.gallary-pager .container .title-gallary p {
+    color: #0d8bca;
+    font-size: 1.2rem;
+}
+
+.gallary-pager .container .row a {
+    display: block;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.gallary-pager .container .row a img {
+    width: 100%;
+    height: 350px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.gallary-pager .container .btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.gallary-pager .container .btn a {
+    display: block;
+    background: #0d8bca;
+    border-radius: 10px;
+    padding: 10px 25px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.gallary-pager .container .btn a:hover {
+    transition: .2s linear all;
+    border: 1px solid #0d8bca;
+    background: transparent;
+    color: #000;
+    border-radius: 0px;
+}
+
+@media (max-width: 1200px) {
+    .gallary-pager .container .btn {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .gallary-pager .container .btn a {
+        display: block;
+        background: #0d8bca;
+        border-radius: 10px;
+        padding: 10px 25px;
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 768.5px) {
+    .gallary-pager {
+        margin-top: 3rem;
+        background: #e9e9e9;
+    }
+
+    .gallary-pager .container {
+        padding: 50px 0;
+    }
+
+    .gallary-pager .container .title-gallary {
+        padding: 2rem;
+    }
+
+    .gallary-pager .container .title-gallary h3 {
+        font-size: 1.5rem;
+        font-weight: normal;
+    }
+
+    .gallary-pager .container .title-gallary h3 span {
+        padding-left: 10px;
+    }
+
+    .gallary-pager .container .title-gallary p {
+        color: #0d8bca;
+    }
+
+    .gallary-pager .container .row {
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
+
+    .gallary-pager .container .row a {
+        margin: 0.5rem 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .gallary-pager .container .row a img {
+        width: 350px;
+        height: 350px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .gallary-pager .container .btn {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .gallary-pager .container .btn a {
+        display: block;
+        background: #0d8bca;
+        border-radius: 10px;
+        padding: 10px 25px;
+        color: #fff;
+        text-decoration: none;
+    }
+}
