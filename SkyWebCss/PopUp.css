@@ -71,7 +71,7 @@
 .model-container .model {
     height: auto;
     max-width: 400px;
-    height: 600px;
+    height: 550px;
     overflow-y: scroll;
     margin: 0 10px;
     background: #fff;
@@ -137,7 +137,7 @@
 .model-container button {
     height: 35px;
     width: 400px;
-    background: rgb(37, 128, 14);
+    background: #0d8bca;
     outline: none;
     border: none;
     color: #fff;
@@ -148,7 +148,7 @@
 
 .model-container button:hover {
 
-    background: rgb(26, 85, 11);
+    background: #0c3d55;
     transition: .2s linear all;
 
 }

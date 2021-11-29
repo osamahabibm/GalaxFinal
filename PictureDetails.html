@@ -14,7 +14,7 @@
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
-    <link rel="stylesheet" href="SkyWebCss/pay-bank.css" />
+    <link rel="stylesheet" href="SkyWebCss/PictureDetails.css" />
     <link rel="stylesheet" href="SkyWebCss/style.css" />
     <link rel="stylesheet" href="SkyWebLie/normliaze.css" />
     <link rel="stylesheet" href="SkyWebLie/hoverSky.css" />
@@ -132,59 +132,107 @@
     <!-- headerTitleStart -->
     <section class="header-title">
       <div class="container">
-        <h3><i class="fas fa-circle"></i>الدفع البنكي</h3>
+        <h3><i class="fas fa-circle"></i> تفاصيل الصورة</h3>
       </div>
     </section>
     <!-- headerTitleStart -->
 
-    <!-- Startservice -->
-    <section class="services">
-      <div class="container">
-        <div class="row">
-          <div class="col"></div>
-          <div class="col-md-12">
-            <form action="">
-              <select class="form-select" aria-label="Default select example">
-                <option selected>اختر البنك</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
-              <input
-                type="text"
-                placeholder="اسم صاحب الحساب"
-                disabled
-                readonly
-              />
-              <input
-                type="number"
-                placeholder="رقم حساب البنك"
-                disabled
-                readonly
-              />
-              <input type="text" placeholder="الاي بان" disabled readonly />
+    <!-- StartSectionResearch -->
+    <div class="container Search">
+      <div class="Search-details">
+        <span>14 أبريل 2022 - 9:45 صباحاً</span>
+        <div class="img-details">
+          <img src="imgs/3.jpeg" alt="" />
+        </div>
 
-              <input
-                type="file"
-                name="file-2[]"
-                id="file-2"
-                class="inputfile inputfile-2"
-                data-multiple-caption="{count} files selected"
-                multiple
-              />
-              <label for="file-2">
-                <span> برجاء ارفاق صورة الحوالة &hellip;</span></label
-              >
-
-              <div class="btn-from">
-                <a href="#">دفع</a>
-              </div>
-            </form>
+        <div class="show-links">
+          <div class="by">
+            <span class="pa">تم النشر بواسطة - الادارة</span>
+          </div>
+          <div class="like">
+            <span id="times">0</span>
+            <i onclick="Toggle()" id="button" class="far fa-heart"></i>
+            <span class="pa">أعجبني</span>
           </div>
         </div>
+
+        <div class="article">
+          <div id="container" paginate="3" class="row">
+            <div class="comment">
+              <div class="user">
+                <i class="far fa-user-circle"></i>
+              </div>
+              <div class="com">
+                <p>
+                  نص تجريبيي نص تجريبيي نص تجريبيي نص تجريبيي نص تجريبيي نص
+                  تجريبيي نص تجريبيي نص تجريبيي نص تجريبيي نص تجريبيي نص تجريبيي
+                  نص تجريبيي نص تجريبيي نص تجريبيي
+                </p>
+                <div class="span-time">
+                  <span> 2021/2/4 </span>
+                  <span> PM 9:30 </span>
+                </div>
+              </div>
+            </div>
+            <div class="comment">
+              <div class="user">
+                <i class="far fa-user-circle"></i>
+              </div>
+              <div class="com">
+                <p>
+                  نص تجريبيي نص تجريبيي نص تجريبيي نص تجريبيي نص تجريبيي نص
+                  تجريبيي نص تجريبيي نص تجريبيي نص تجريبيي نص تجريبيي نص تجريبيي
+                  نص تجريبيي نص تجريبيي نص تجريبيي
+                </p>
+                <div class="span-time">
+                  <span> 2021/2/4 </span>
+                  <span> PM 9:30 </span>
+                </div>
+              </div>
+            </div>
+            <div class="comment">
+              <div class="user">
+                <i class="far fa-user-circle"></i>
+              </div>
+              <div class="com">
+                <p>
+                  نص تجريبيي نص تجريبيي نص تجريبيي نص تجريبيي نص تجريبيي نص
+                  تجريبيي نص تجريبيي نص تجريبيي نص تجريبيي نص تجريبيي نص تجريبيي
+                  نص تجريبيي نص تجريبيي نص تجريبيي
+                </p>
+                <div class="span-time">
+                  <span> 2021/2/4 </span>
+                  <span> PM 9:30 </span>
+                </div>
+              </div>
+            </div>
+            <div class="comment">
+              <div class="user">
+                <i class="far fa-user-circle"></i>
+              </div>
+              <div class="com">
+                <p>
+                  نص تجريبيي نص تجريبيي نص تجريبيي نص تجريبيي نص تجريبيي نص
+                  تجريبيي نص تجريبيي نص تجريبيي نص تجريبيي نص تجريبيي نص تجريبيي
+                  نص تجريبيي نص تجريبيي نص تجريبيي
+                </p>
+                <div class="span-time">
+                  <span> 2021/2/4 </span>
+                  <span> PM 9:30 </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <form action="">
+            <input type="text" name="" id="" placeholder="اكتب تعليق..." />
+            <div class="sub">
+              <input type="submit" value="تعليق" />
+            </div>
+          </form>
+        </div>
       </div>
-    </section>
-    <!-- Endservice -->
+    </div>
+    <!-- EndSectionResearch -->
 
     <!-- FooterStart -->
     <footer>
@@ -281,13 +329,23 @@
     </footer>
     <!-- FooterEnd -->
 
-    <script></script>
+    <script>
+      var button = document.getElementById("button");
+      function Toggle() {
+        if (button.classList.contains("far")) {
+          button.classList.remove("far");
+          button.classList.add("fas");
+        } else {
+          button.classList.remove("fas");
+          button.classList.add("far");
+        }
+      }
+    </script>
 
     <!-- javaScript -->
-    <script src="SkyWebJs/jquery.custom-file-input.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://unpkg.com/aos@3.0.0-beta.6/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="SkyWebJs/main.js"></script>
+    <script src="SkyWebJs/paginate.js"></script>
   </body>
 </html>

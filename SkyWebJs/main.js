@@ -13,7 +13,7 @@ $(document).ready(function () {
       menuItem[i].className = "active";
     }
   }
-   lightGallery(document.querySelector("#container"));
+
   // swiper
   var swiper = new Swiper(".mySwiper", {
     navigation: {
