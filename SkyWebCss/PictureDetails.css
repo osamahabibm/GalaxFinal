@@ -276,47 +276,6 @@ span.paginator-next {
   color: #0d8bca;
 }
 
-.Search .Search-details .article form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-.Search .Search-details .article form input {
-  width: 70%;
-  border: 1px solid #9e8787;
-  padding: 10px 20px;
-  border-radius: 0px 5px 5px 0;
-}
-
-.Search .Search-details .article form input:focus {
-  -webkit-box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, #d1d5db 0px 0px 0px 1px inset;
-          box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, #d1d5db 0px 0px 0px 1px inset;
-  -webkit-transition: 0.2s linear;
-  transition: 0.2s linear;
-}
-
-.Search .Search-details .article form .sub {
-  width: 30%;
-}
-
-.Search .Search-details .article form .sub input {
-  background: #0d8bca;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 5px 0px 0px 5px;
-  width: 100%;
-}
-
-.Search .Search-details .article form .sub input:hover {
-  background: #0c4f70;
-  -webkit-transition: 0.2s linear all;
-  transition: 0.2s linear all;
-}
-
 .com {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -331,6 +290,52 @@ span.paginator-next {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.type {
+  width: 700px;
+  margin-bottom: 1rem;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+form input {
+  width: 70%;
+  border: 1px solid #9e8787;
+  padding: 10px 20px;
+  border-radius: 0px 5px 5px 0;
+}
+
+form input:focus {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, #d1d5db 0px 0px 0px 1px inset;
+          box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, #d1d5db 0px 0px 0px 1px inset;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+
+form .sub {
+  width: 30%;
+}
+
+form .sub input {
+  background: #0d8bca;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px 0px 0px 5px;
+  width: 100%;
+}
+
+form .sub input:hover {
+  background: #0c4f70;
+  -webkit-transition: 0.2s linear all;
+  transition: 0.2s linear all;
 }
 
 .span-time span {
@@ -378,6 +383,9 @@ span.paginator-next {
     width: 100% !important;
   }
   .link {
+    width: 100% !important;
+  }
+  .type {
     width: 100% !important;
   }
 }
