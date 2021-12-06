@@ -271,7 +271,10 @@ form {
   width: 100%;
   margin: 0;
   padding: 0;
+  position: relative;
   input {
+    position: relative;
+    display: block;
     width: 70%;
     border: 1px solid rgb(158, 135, 135);
     padding: 10px 20px;
@@ -285,12 +288,19 @@ form {
   }
   .sub {
     width: 30%;
-    input {
+    position: relative;
+    display: block;
+    a {
+      display: block;
       background: #0d8bca;
       color: #fff;
-      padding: 10px 20px;
+      padding: 12px 20px;
       border-radius: 5px 0px 0px 5px;
       width: 100%;
+      text-align: center;
+      text-decoration: none;
+      height: 46px;
+
       &:hover {
         background: #0c4f70;
         transition: 0.2s linear all;

@@ -304,9 +304,12 @@ form {
   width: 100%;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 form input {
+  position: relative;
+  display: block;
   width: 70%;
   border: 1px solid #9e8787;
   padding: 10px 20px;
@@ -322,17 +325,23 @@ form input:focus {
 
 form .sub {
   width: 30%;
+  position: relative;
+  display: block;
 }
 
-form .sub input {
+form .sub a {
+  display: block;
   background: #0d8bca;
   color: #fff;
-  padding: 10px 20px;
+  padding: 12px 20px;
   border-radius: 5px 0px 0px 5px;
   width: 100%;
+  text-align: center;
+  text-decoration: none;
+  height: 46px;
 }
 
-form .sub input:hover {
+form .sub a:hover {
   background: #0c4f70;
   -webkit-transition: 0.2s linear all;
   transition: 0.2s linear all;

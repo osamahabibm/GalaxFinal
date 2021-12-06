@@ -77,11 +77,13 @@
 }
 
 .news-section #news {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (minmax(16rem, 1fr))[auto-fit];
     grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
     gap: 1.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .news-section #news .result {
@@ -126,6 +128,9 @@
     font-size: 15px;
     font-weight: 700;
     padding: 0.5rem;
+    overflow: hidden;
+    height: 50px;
+    margin-top: .5rem;
 }
 
 .news-section #news .result .info-news p {

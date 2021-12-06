@@ -36,6 +36,7 @@
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -45,6 +46,7 @@
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -58,8 +60,8 @@
 
 .services {
   -webkit-animation: fadeEffect 2s;
-          animation: fadeEffect 2s;
-          margin-bottom: 3rem;
+  animation: fadeEffect 2s;
+  margin-bottom: 3rem;
 }
 
 .services .container {
@@ -67,11 +69,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .services .container .row {
@@ -79,15 +81,15 @@
   display: -ms-flexbox !important;
   display: flex !important;
   -webkit-box-pack: center !important;
-      -ms-flex-pack: center !important;
-          justify-content: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
   -webkit-box-align: center !important;
-      -ms-flex-align: center !important;
-          align-items: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
   -webkit-box-orient: vertical !important;
   -webkit-box-direction: normal !important;
-      -ms-flex-direction: column !important;
-          flex-direction: column !important;
+  -ms-flex-direction: column !important;
+  flex-direction: column !important;
   margin: 2rem 0;
 }
 
@@ -96,15 +98,15 @@
   display: -ms-flexbox !important;
   display: flex !important;
   -webkit-box-pack: center !important;
-      -ms-flex-pack: center !important;
-          justify-content: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
   -webkit-box-align: center !important;
-      -ms-flex-align: center !important;
-          align-items: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
   -webkit-box-orient: vertical !important;
   -webkit-box-direction: normal !important;
-      -ms-flex-direction: column !important;
-          flex-direction: column !important;
+  -ms-flex-direction: column !important;
+  flex-direction: column !important;
 }
 
 .services .container .row div h3 {
@@ -120,16 +122,16 @@
   display: flex !important;
   -webkit-box-orient: horizontal !important;
   -webkit-box-direction: normal !important;
-      -ms-flex-direction: row !important;
-          flex-direction: row !important;
+  -ms-flex-direction: row !important;
+  flex-direction: row !important;
   -ms-flex-wrap: wrap !important;
-      flex-wrap: wrap !important;
+  flex-wrap: wrap !important;
   -webkit-box-pack: start !important;
-      -ms-flex-pack: start !important;
-          justify-content: flex-start !important;
+  -ms-flex-pack: start !important;
+  justify-content: flex-start !important;
   -webkit-box-align: center !important;
-      -ms-flex-align: center !important;
-          align-items: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
   padding-left: 2rem;
   margin-right: 8rem;
   margin-bottom: 1rem;
@@ -141,18 +143,18 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
-.services .container .row div form input {
+.services .container .row .form-input input {
   border: 1px solid #6e2222;
   width: 500px;
   margin-bottom: 1rem;
@@ -160,25 +162,25 @@
   border-radius: 4px;
 }
 
-.services .container .row div form input::-webkit-input-placeholder {
+.services .container .row .form-input input::-webkit-input-placeholder {
   color: #000;
 }
 
-.services .container .row div form input:-ms-input-placeholder {
+.services .container .row .form-input input:-ms-input-placeholder {
   color: #000;
 }
 
-.services .container .row div form input::-ms-input-placeholder {
+.services .container .row .form-input input::-ms-input-placeholder {
   color: #000;
 }
 
-.services .container .row div form input::placeholder {
+.services .container .row .form-input input::placeholder {
   color: #000;
 }
 
-.services .container .row div form input:focus {
+.services .container .row .form-input input:focus {
   -webkit-box-shadow: #0d8bca 0px 3px 8px;
-          box-shadow: #0d8bca 0px 3px 8px;
+  box-shadow: #0d8bca 0px 3px 8px;
   -webkit-transition: 0.2s linear;
   transition: 0.2s linear;
 }
@@ -187,14 +189,14 @@
   padding-bottom: 8rem;
 }
 
-.services .container .row div form .text input:focus {
+.services .container .row .form-input .text input:focus {
   -webkit-box-shadow: #0d8bca 0px 3px 8px;
-          box-shadow: #0d8bca 0px 3px 8px;
+  box-shadow: #0d8bca 0px 3px 8px;
   -webkit-transition: 0.2s linear;
   transition: 0.2s linear;
 }
 
-.services .container .row div form .form-select {
+.services .container .row .form-input .form-select {
   background-position: left 0.75rem center !important;
   border: 1px solid #6e2222;
   width: 500px;
@@ -203,14 +205,14 @@
   border-radius: 4px;
 }
 
-.services .container .row div form .form-select:focus {
+.services .container .row .form-input .form-select:focus {
   -webkit-box-shadow: #0d8bca 0px 3px 8px;
-          box-shadow: #0d8bca 0px 3px 8px;
+  box-shadow: #0d8bca 0px 3px 8px;
   -webkit-transition: 0.2s linear;
   transition: 0.2s linear;
 }
 
-.services .container .row div form .btn-from {
+.services .container .row .form-input .btn-from {
   width: 500px;
   padding: 10px 20px;
   background: #0d8bca;
@@ -218,13 +220,13 @@
   border-radius: 4px;
 }
 
-.services .container .row div form .btn-from:hover {
+.services .container .row .form-input .btn-from:hover {
   background: #0c5a81;
   -webkit-transition: 0.2s linear all;
   transition: 0.2s linear all;
 }
 
-.services .container .row div form .btn-from a {
+.services .container .row .form-input .btn-from a {
   color: #fff;
   font-weight: 700;
   text-decoration: none;
@@ -248,23 +250,29 @@
   .services h3 {
     font-size: 0.9rem !important;
   }
+
   .check {
     width: 100% !important;
     margin-right: 0rem !important;
     padding-right: 2rem !important;
   }
+
   form {
     width: 100%;
   }
+
   form input {
     width: 100% !important;
   }
+
   form select {
     width: 100% !important;
   }
+
   form .text {
     width: 100%;
   }
+
   form .btn-from {
     width: 100% !important;
   }
@@ -304,7 +312,7 @@
   border-radius: 4px;
 }
 
-.from-control input:checked ~ .checkmark {
+.from-control input:checked~.checkmark {
   background-color: #0d8bca;
 }
 
@@ -315,7 +323,7 @@
 }
 
 /* Show the checkmark when checked */
-.from-control input:checked ~ .checkmark:after {
+.from-control input:checked~.checkmark:after {
   display: block;
 }
 
@@ -330,4 +338,5 @@
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+
 /*# sourceMappingURL=services.css.map */

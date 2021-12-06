@@ -132,6 +132,8 @@
     font-size: 15px;
     font-weight: 700;
     padding: 0.5rem;
+    height: 29px;
+    overflow: hidden;
 }
 
 .news-section #news .result .info-news p {
@@ -360,11 +362,11 @@
         font-weight: 600;
     }
 
-    .container-info{
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         flex-direction: column;
+    .container-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
 

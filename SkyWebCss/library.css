@@ -295,6 +295,8 @@ span.paginator-next {
   border-radius: 10px 0 0 10px;
   padding-left: 0.5rem;
   width: 100%;
+  height: 192px;
+  overflow: hidden;
 }
 
 #Senior .container-xxl #container div .info-books .info h3 {
@@ -302,6 +304,8 @@ span.paginator-next {
   font-weight: 700;
   padding-top: 1rem;
   padding-right: 0.5rem;
+  height: 38.4px;
+  overflow: hidden;
 }
 
 #Senior .container-xxl #container div .info-books .info p {
@@ -309,6 +313,8 @@ span.paginator-next {
   padding: 0.5rem;
   color: #0d8bca;
   font-weight: 700;
+  height: 73px;
+  overflow: hidden;
 }
 
 #Senior .container-xxl #container div .info-books .info .btn-libr {
@@ -518,6 +524,7 @@ span.paginator-next {
   #Senior .container-xxl #container div .info-books .info p {
     text-align: center;
     font-size: 13px;
+    height: 69px;
   }
 
   #Senior .container-xxl #container div .info-books .Version {
@@ -639,6 +646,8 @@ span.paginator-next {
   border-radius: 10px 0 0 10px;
   padding-left: 0.5rem;
   width: 100%;
+  height: 192px;
+  overflow: hidden;
 }
 
 #young .container-xxl #container div .info-books .info h3 {
@@ -646,6 +655,8 @@ span.paginator-next {
   font-weight: 700;
   padding-top: 1rem;
   padding-right: 0.5rem;
+  height: 38.4px;
+  overflow: hidden;
 }
 
 #young .container-xxl #container div .info-books .info p {
@@ -653,6 +664,8 @@ span.paginator-next {
   padding: 0.5rem;
   color: #0d8bca;
   font-weight: 700;
+  height: 73px;
+  overflow: hidden;
 }
 
 #young .container-xxl #container div .info-books .info .btn-libr {
@@ -862,6 +875,7 @@ span.paginator-next {
   #young .container-xxl #container div .info-books .info p {
     text-align: center;
     font-size: 13px;
+    height: 69px;
   }
 
   #young .container-xxl #container div .info-books .Version {

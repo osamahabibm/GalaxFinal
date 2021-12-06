@@ -227,6 +227,10 @@ span.paginator-next {
   -ms-grid-columns: (minmax(16rem, 1fr))[auto-fit];
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
   gap: 1.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .news-section #container .result {
@@ -274,6 +278,8 @@ span.paginator-next {
   font-size: 14px;
   padding: 0 0.5rem;
   text-align: center;
+  height: 63px;
+  overflow: hidden;
 }
 
 .news-section #container .result .time-news {

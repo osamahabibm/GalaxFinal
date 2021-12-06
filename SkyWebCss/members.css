@@ -48,7 +48,7 @@
   -ms-flex-align: center;
   align-items: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 /* Style the buttons inside the tab */
@@ -87,6 +87,7 @@
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -96,6 +97,7 @@
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -125,11 +127,11 @@
   display: flex;
   color: #0d8bca !important;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   font-size: 1.5rem;
   font-weight: 700;
   padding-top: 3rem !important;
@@ -148,11 +150,11 @@ span.paginator-prev {
   display: -ms-flexbox !important;
   display: flex !important;
   -webkit-box-pack: center !important;
-      -ms-flex-pack: center !important;
-          justify-content: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
   -webkit-box-align: center !important;
-      -ms-flex-align: center !important;
-          align-items: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -176,11 +178,11 @@ span.paginator-next {
   display: -ms-flexbox !important;
   display: flex !important;
   -webkit-box-pack: center !important;
-      -ms-flex-pack: center !important;
-          justify-content: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
   -webkit-box-align: center !important;
-      -ms-flex-align: center !important;
-          align-items: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -198,11 +200,11 @@ span.paginator-next {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 #pagingControls li {
@@ -219,16 +221,20 @@ span.paginator-next {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin-bottom: 1rem;
+}
+
+#container {
+  min-height: auto !important;
 }
 
 #Management #container div .img-box {
@@ -238,8 +244,9 @@ span.paginator-next {
   border-radius: 20px;
 }
 
-#Management #container div .img-box i {
-  font-size: 70px;
+#Management #container div .img-box img {
+  width: 100px;
+  object-fit: cover;
   color: #fff;
 }
 
@@ -262,9 +269,10 @@ span.paginator-next {
   .header-title {
     display: none;
   }
+
   .navbar {
     -webkit-box-shadow: none !important;
-            box-shadow: none !important;
+    box-shadow: none !important;
   }
 }
 
@@ -275,29 +283,31 @@ span.paginator-next {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
+
   #Management #container div {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
     -webkit-box-pack: center !important;
-        -ms-flex-pack: center !important;
-            justify-content: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
     -webkit-box-align: center !important;
-        -ms-flex-align: center !important;
-            align-items: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     margin-bottom: 1rem;
     width: 11rem;
   }
+
   #Management #container div .img-box {
     width: 85%;
     height: 200px;
@@ -307,24 +317,28 @@ span.paginator-next {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
+
   #Management #container div .img-box i {
     font-size: 70px;
     color: #fff;
   }
+
   #Management #container div .info {
     width: 85%;
     padding-top: 1rem;
   }
+
   #Management #container div .info h3 {
     font-size: 14px;
     font-weight: 700;
   }
+
   #Management #container div .info span {
     color: #0d8bca;
     font-weight: 700;
@@ -338,29 +352,31 @@ span.paginator-next {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
+
   #Management #container div {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
     -webkit-box-pack: center !important;
-        -ms-flex-pack: center !important;
-            justify-content: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
     -webkit-box-align: center !important;
-        -ms-flex-align: center !important;
-            align-items: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     margin-bottom: 1rem;
     width: 12rem;
   }
+
   #Management #container div .img-box {
     width: 100%;
     height: 200px;
@@ -370,24 +386,29 @@ span.paginator-next {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
-  #Management #container div .img-box i {
-    font-size: 70px;
+
+  #Management #container div .img-box img {
+    width: 100px;
+    object-fit: cover;
     color: #fff;
   }
+
   #Management #container div .info {
     width: 100%;
     padding-top: 1rem;
   }
+
   #Management #container div .info h3 {
     font-size: 14px;
     font-weight: 700;
   }
+
   #Management #container div .info span {
     color: #0d8bca;
     font-weight: 700;
@@ -427,15 +448,15 @@ span.paginator-next {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin-bottom: 1rem;
 }
 
@@ -446,8 +467,9 @@ span.paginator-next {
   border-radius: 20px;
 }
 
-#honorary #container div .img-box i {
-  font-size: 70px;
+#honorary #container div .img-box img {
+  width: 100px;
+  object-fit: cover;
   color: #fff;
 }
 
@@ -470,9 +492,10 @@ span.paginator-next {
   .header-title {
     display: none;
   }
+
   .navbar {
     -webkit-box-shadow: none !important;
-            box-shadow: none !important;
+    box-shadow: none !important;
   }
 }
 
@@ -483,29 +506,31 @@ span.paginator-next {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
+
   #honorary #container div {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
     -webkit-box-pack: center !important;
-        -ms-flex-pack: center !important;
-            justify-content: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
     -webkit-box-align: center !important;
-        -ms-flex-align: center !important;
-            align-items: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     margin-bottom: 1rem;
     width: 11rem;
   }
+
   #honorary #container div .img-box {
     width: 85%;
     height: 200px;
@@ -515,24 +540,29 @@ span.paginator-next {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
-  #honorary #container div .img-box i {
-    font-size: 70px;
+
+  #honorary #container div .img-box img {
+    width: 100px;
+    object-fit: cover;
     color: #fff;
   }
+
   #honorary #container div .info {
     width: 85%;
     padding-top: 1rem;
   }
+
   #honorary #container div .info h3 {
     font-size: 14px;
     font-weight: 700;
   }
+
   #honorary #container div .info span {
     color: #0d8bca;
     font-weight: 700;
@@ -546,29 +576,31 @@ span.paginator-next {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
+
   #honorary #container div {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
     -webkit-box-pack: center !important;
-        -ms-flex-pack: center !important;
-            justify-content: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
     -webkit-box-align: center !important;
-        -ms-flex-align: center !important;
-            align-items: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     margin-bottom: 1rem;
     width: 12rem;
   }
+
   #honorary #container div .img-box {
     width: 100%;
     height: 200px;
@@ -578,24 +610,29 @@ span.paginator-next {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
-  #honorary #container div .img-box i {
-    font-size: 70px;
+
+  #honorary #container div .img-box img {
+    width: 100px;
+    object-fit: cover;
     color: #fff;
   }
+
   #honorary #container div .info {
     width: 100%;
     padding-top: 1rem;
   }
+
   #honorary #container div .info h3 {
     font-size: 14px;
     font-weight: 700;
   }
+
   #honorary #container div .info span {
     color: #0d8bca;
     font-weight: 700;
@@ -611,15 +648,15 @@ span.paginator-next {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin-bottom: 1rem;
 }
 
@@ -630,8 +667,9 @@ span.paginator-next {
   border-radius: 20px;
 }
 
-#Worker #container div .img-box i {
-  font-size: 70px;
+#Worker #container div .img-box img {
+  width: 100px;
+  object-fit: cover;
   color: #fff;
 }
 
@@ -654,9 +692,10 @@ span.paginator-next {
   .header-title {
     display: none;
   }
+
   .navbar {
     -webkit-box-shadow: none !important;
-            box-shadow: none !important;
+    box-shadow: none !important;
   }
 }
 
@@ -667,29 +706,31 @@ span.paginator-next {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
+
   #Worker #container div {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
     -webkit-box-pack: center !important;
-        -ms-flex-pack: center !important;
-            justify-content: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
     -webkit-box-align: center !important;
-        -ms-flex-align: center !important;
-            align-items: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     margin-bottom: 1rem;
     width: 11rem;
   }
+
   #Worker #container div .img-box {
     width: 85%;
     height: 200px;
@@ -699,24 +740,29 @@ span.paginator-next {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
-  #Worker #container div .img-box i {
-    font-size: 70px;
+
+  #Worker #container div .img-box img {
+    width: 100px;
+    object-fit: cover;
     color: #fff;
   }
+
   #Worker #container div .info {
     width: 85%;
     padding-top: 1rem;
   }
+
   #Worker #container div .info h3 {
     font-size: 14px;
     font-weight: 700;
   }
+
   #Worker #container div .info span {
     color: #0d8bca;
     font-weight: 700;
@@ -730,29 +776,31 @@ span.paginator-next {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
+
   #Worker #container div {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
     -webkit-box-pack: center !important;
-        -ms-flex-pack: center !important;
-            justify-content: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
     -webkit-box-align: center !important;
-        -ms-flex-align: center !important;
-            align-items: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     margin-bottom: 1rem;
     width: 12rem;
   }
+
   #Worker #container div .img-box {
     width: 100%;
     height: 200px;
@@ -762,24 +810,29 @@ span.paginator-next {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
-  #Worker #container div .img-box i {
-    font-size: 70px;
+
+  #Worker #container div .img-box img {
+    width: 100px;
+    object-fit: cover;
     color: #fff;
   }
+
   #Worker #container div .info {
     width: 100%;
     padding-top: 1rem;
   }
+
   #Worker #container div .info h3 {
     font-size: 14px;
     font-weight: 700;
   }
+
   #Worker #container div .info span {
     color: #0d8bca;
     font-weight: 700;
@@ -795,15 +848,15 @@ span.paginator-next {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin-bottom: 1rem;
 }
 
@@ -814,8 +867,9 @@ span.paginator-next {
   border-radius: 20px;
 }
 
-#affiliated #container div .img-box i {
-  font-size: 70px;
+#affiliated #container div .img-box img {
+  width: 100px;
+  object-fit: cover;
   color: #fff;
 }
 
@@ -838,9 +892,10 @@ span.paginator-next {
   .header-title {
     display: none;
   }
+
   .navbar {
     -webkit-box-shadow: none !important;
-            box-shadow: none !important;
+    box-shadow: none !important;
   }
 }
 
@@ -851,29 +906,31 @@ span.paginator-next {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
+
   #affiliated #container div {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
     -webkit-box-pack: center !important;
-        -ms-flex-pack: center !important;
-            justify-content: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
     -webkit-box-align: center !important;
-        -ms-flex-align: center !important;
-            align-items: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     margin-bottom: 1rem;
     width: 11rem;
   }
+
   #affiliated #container div .img-box {
     width: 85%;
     height: 200px;
@@ -883,24 +940,29 @@ span.paginator-next {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
-  #affiliated #container div .img-box i {
-    font-size: 70px;
+
+  #affiliated #container div .img-box img {
+    width: 100px;
+    object-fit: cover;
     color: #fff;
   }
+
   #affiliated #container div .info {
     width: 85%;
     padding-top: 1rem;
   }
+
   #affiliated #container div .info h3 {
     font-size: 14px;
     font-weight: 700;
   }
+
   #affiliated #container div .info span {
     color: #0d8bca;
     font-weight: 700;
@@ -914,29 +976,31 @@ span.paginator-next {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
+
   #affiliated #container div {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
     -webkit-box-pack: center !important;
-        -ms-flex-pack: center !important;
-            justify-content: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
     -webkit-box-align: center !important;
-        -ms-flex-align: center !important;
-            align-items: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     margin-bottom: 1rem;
     width: 12rem;
   }
+
   #affiliated #container div .img-box {
     width: 100%;
     height: 200px;
@@ -946,24 +1010,29 @@ span.paginator-next {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
-  #affiliated #container div .img-box i {
-    font-size: 70px;
+
+  #affiliated #container div .img-box img {
+    width: 100px;
+    object-fit: cover;
     color: #fff;
   }
+
   #affiliated #container div .info {
     width: 100%;
     padding-top: 1rem;
   }
+
   #affiliated #container div .info h3 {
     font-size: 14px;
     font-weight: 700;
   }
+
   #affiliated #container div .info span {
     color: #0d8bca;
     font-weight: 700;
@@ -979,15 +1048,15 @@ span.paginator-next {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin-bottom: 1rem;
 }
 
@@ -998,8 +1067,9 @@ span.paginator-next {
   border-radius: 20px;
 }
 
-#Honor #container div .img-box i {
-  font-size: 70px;
+#Honor #container div .img-box img {
+  width: 100px;
+  object-fit: cover;
   color: #fff;
 }
 
@@ -1022,9 +1092,10 @@ span.paginator-next {
   .header-title {
     display: none;
   }
+
   .navbar {
     -webkit-box-shadow: none !important;
-            box-shadow: none !important;
+    box-shadow: none !important;
   }
 }
 
@@ -1035,29 +1106,31 @@ span.paginator-next {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
+
   #Honor #container div {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
     -webkit-box-pack: center !important;
-        -ms-flex-pack: center !important;
-            justify-content: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
     -webkit-box-align: center !important;
-        -ms-flex-align: center !important;
-            align-items: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     margin-bottom: 1rem;
     width: 11rem;
   }
+
   #Honor #container div .img-box {
     width: 85%;
     height: 200px;
@@ -1067,24 +1140,29 @@ span.paginator-next {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
-  #Honor #container div .img-box i {
-    font-size: 70px;
+
+  #Honor #container div .img-box img {
+    width: 100px;
+    object-fit: cover;
     color: #fff;
   }
+
   #Honor #container div .info {
     width: 85%;
     padding-top: 1rem;
   }
+
   #Honor #container div .info h3 {
     font-size: 14px;
     font-weight: 700;
   }
+
   #Honor #container div .info span {
     color: #0d8bca;
     font-weight: 700;
@@ -1098,29 +1176,31 @@ span.paginator-next {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
+
   #Honor #container div {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
     -webkit-box-pack: center !important;
-        -ms-flex-pack: center !important;
-            justify-content: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
     -webkit-box-align: center !important;
-        -ms-flex-align: center !important;
-            align-items: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     margin-bottom: 1rem;
     width: 12rem;
   }
+
   #Honor #container div .img-box {
     width: 100%;
     height: 200px;
@@ -1130,27 +1210,33 @@ span.paginator-next {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
-  #Honor #container div .img-box i {
-    font-size: 70px;
+
+  #Honor #container div .img-box img {
+    width: 100px;
+    object-fit: cover;
     color: #fff;
   }
+
   #Honor #container div .info {
     width: 100%;
     padding-top: 1rem;
   }
+
   #Honor #container div .info h3 {
     font-size: 14px;
     font-weight: 700;
   }
+
   #Honor #container div .info span {
     color: #0d8bca;
     font-weight: 700;
   }
 }
+
 /*# sourceMappingURL=members.css.map */
