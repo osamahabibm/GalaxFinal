@@ -132,122 +132,42 @@
     <!-- headerTitleStart -->
     <section class="header-title">
       <div class="container">
-        <h3><i class="fas fa-circle"></i>معرض الصور</h3>
+        <h3><i class="fas fa-circle"></i> شارك صورك</h3>
       </div>
     </section>
     <!-- headerTitleStart -->
 
-    <!-- StartTab -->
-    <div class="tab">
-      <div class="container">
-        <button class="tablinks" id="0" onclick="openCity(event, 'gallary')">
-          معرض الصور
-        </button>
+    <!-- shaerImgeStart -->
 
-        <button class="tablinks" id="1" onclick="openCity(event, 'shaer')">
-          شارك معنا صورك
-        </button>
+    <div class="container shaered">
+      <div class="row">
+        <div class="col-md-12 col-lg-8 col-xl-6">
+          <h3>شارك صورك</h3>
+          <form action="">
+            <input type="text" class="name" placeholder="الإسم" />
+            <input type="tel" class="name" placeholder="رقم التواصل" />
+            <input type="email" class="email" placeholder="البريد الإلكتروني" />
+            <input
+              type="file"
+              name="file-2[]"
+              id="file-2"
+              class="inputfile inputfile-2"
+              data-multiple-caption="{count} files selected"
+              multiple
+            />
+            <label for="file-2"> <span> رفع الصور </span></label>
+            <div class="text">
+              <input type="text" placeholder="نبذة عن الصورة ..." />
+            </div>
+
+            <div class="btn-form">
+              <input type="submit" value="إرسال" />
+            </div>
+          </form>
+        </div>
       </div>
     </div>
-    <!-- EndtTab -->
 
-    <!-- GallaryStart -->
-    <div id="gallary" class="tabcontent">
-      <section class="gallary-pager">
-        <div class="container">
-          <div class="title-gallary text-center">
-            <h3>
-              <span><i class="fas fa-photo-video"></i></span> معرض الصور الفكلية
-            </h3>
-            <p>نعرض هنا اهم الصور الفكلية الحديثة</p>
-          </div>
-          <div id="container" class="row" paginate="8">
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <img src="imgs/1.jpeg" alt="" />
-            </a>
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <img src="imgs/2.jpeg" alt="" />
-            </a>
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <img src="imgs/3.jpeg" alt="" />
-            </a>
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <img src="imgs/4.jpeg" alt="" />
-            </a>
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <img src="imgs/5.jpeg" alt="" />
-            </a>
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <img src="imgs/6.jpeg" alt="" />
-            </a>
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <img src="imgs/7.jpeg" alt="" />
-            </a>
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <img src="imgs/8.jpeg" alt="" />
-            </a>
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <img src="imgs/8.jpeg" alt="" />
-            </a>
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <img src="imgs/5.jpeg" alt="" />
-            </a>
-          </div>
-        </div>
-      </section>
-    </div>
-    <!-- GallarySectionEnd -->
-
-    <!-- shaerImgeStart -->
-    <div id="shaer" class="tabcontent">
-      <section class="gallary-pager">
-        <div class="container">
-          <div class="title-gallary text-center">
-            <h3>
-              <span><i class="fas fa-photo-video"></i></span> معرض الصور الفكلية
-            </h3>
-            <p>نعرض هنا اهم الصور الفكلية الحديثة</p>
-          </div>
-
-          <div class="shaerd-img">
-            <a href="partner.html">شارك صورك</a> <i class="fas fa-images"></i>
-          </div>
-
-          <div id="container" class="row" paginate="8">
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <img src="imgs/1.jpeg" alt="" />
-            </a>
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <img src="imgs/2.jpeg" alt="" />
-            </a>
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <img src="imgs/3.jpeg" alt="" />
-            </a>
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <img src="imgs/4.jpeg" alt="" />
-            </a>
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <img src="imgs/5.jpeg" alt="" />
-            </a>
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <img src="imgs/6.jpeg" alt="" />
-            </a>
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <img src="imgs/7.jpeg" alt="" />
-            </a>
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <img src="imgs/8.jpeg" alt="" />
-            </a>
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <img src="imgs/8.jpeg" alt="" />
-            </a>
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <img src="imgs/5.jpeg" alt="" />
-            </a>
-          </div>
-        </div>
-      </section>
-    </div>
     <!-- shaerImgeEnd -->
 
     <!-- FooterStart -->

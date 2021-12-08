@@ -111,7 +111,7 @@
         this.count = opts.count;
         this.totalPages = Math.ceil(this.total / this.count);
         //PAGINATOR
-        this.paginatorTemplate = "<div class='row paginator'>\
+        (this.total)?(this.paginatorTemplate = "<div class='row paginator'>\
                 <div class='pull-right'> \
                     <span title='previous-page' class='paginator-prev " + classNames.disabled + "'>&lt;&nbsp;</span>  \
                     <span></span> <span class='currentPage'></span> \
@@ -119,7 +119,7 @@
                     <span class='paginator-next'>&nbsp;&gt;</span> \
                 </div> \
             </div> \
-        </div>";
+        </div>"):null
         var insertMethod = "insertAfter";
         if (opts.navBefore == "true") {
             insertMethod = "insertBefore";

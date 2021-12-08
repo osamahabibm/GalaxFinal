@@ -248,6 +248,11 @@ span.paginator-next {
   color: #fff;
 }
 
+.fa-eye {
+  padding-left: 1rem;
+  color: #fff !important;
+}
+
 .Search .Search-details .article {
   width: 700px;
   display: -webkit-box;
@@ -327,6 +332,7 @@ form .sub {
   width: 30%;
   position: relative;
   display: block;
+  padding-right: 0.1rem;
 }
 
 form .sub a {
