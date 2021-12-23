@@ -253,11 +253,13 @@ span.paginator-next {
 #Management #container div .info {
   width: 85%;
   padding-top: 1rem;
+  text-align: center;
 }
 
 #Management #container div .info h3 {
   font-size: 14px;
   font-weight: 700;
+
 }
 
 #Management #container div .info span {
@@ -415,26 +417,22 @@ span.paginator-next {
   }
 }
 
-@media (max-width: 991.5px) {
+
+
+@media (max-width: 767.5px) {
+  .tab button:nth-child(6) {
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 550.5px) {
   .tab button:nth-child(5) {
     margin-top: 0.5rem;
   }
 }
 
-@media (max-width: 767.5px) {
+@media (max-width: 470.9px) {
   .tab button:nth-child(4) {
-    margin-top: 0.5rem;
-  }
-}
-
-@media (max-width: 517.5px) {
-  .tab button:nth-child(3) {
-    margin-top: 0.5rem;
-  }
-}
-
-@media (max-width: 370.9px) {
-  .tab button:nth-child(2) {
     margin-top: 0.5rem;
   }
 }
@@ -476,6 +474,7 @@ span.paginator-next {
 #honorary #container div .info {
   width: 85%;
   padding-top: 1rem;
+  text-align: center;
 }
 
 #honorary #container div .info h3 {
@@ -676,6 +675,7 @@ span.paginator-next {
 #Worker #container div .info {
   width: 85%;
   padding-top: 1rem;
+  text-align: center;
 }
 
 #Worker #container div .info h3 {
@@ -876,6 +876,7 @@ span.paginator-next {
 #affiliated #container div .info {
   width: 85%;
   padding-top: 1rem;
+  text-align: center;
 }
 
 #affiliated #container div .info h3 {
@@ -1076,6 +1077,7 @@ span.paginator-next {
 #Honor #container div .info {
   width: 85%;
   padding-top: 1rem;
+  text-align: center;
 }
 
 #Honor #container div .info h3 {
@@ -1234,6 +1236,210 @@ span.paginator-next {
   }
 
   #Honor #container div .info span {
+    color: #0d8bca;
+    font-weight: 700;
+  }
+}
+
+
+
+
+#founders #container {
+  padding: 2rem 0;
+}
+
+#founders #container div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+#affiliated #container div .img-box {
+  width: 85%;
+  height: 200px;
+  background: #0d8bca;
+  border-radius: 20px;
+}
+
+#founders #container div .img-box img {
+  width: 100px;
+  object-fit: cover;
+  color: #fff;
+}
+
+#founders #container div .info {
+  width: 85%;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+#founders #container div .info h3 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#founders #container div .info span {
+  color: #0d8bca;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .header-title {
+    display: none;
+  }
+
+  .navbar {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+}
+
+@media (max-width: 580.5px) {
+  #founders #container {
+    padding: 2rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  #founders #container div {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    width: 11rem;
+  }
+
+  #founders #container div .img-box {
+    width: 85%;
+    height: 200px;
+    background: #0d8bca;
+    border-radius: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  #founders #container div .img-box img {
+    width: 100px;
+    object-fit: cover;
+    color: #fff;
+  }
+
+  #founders #container div .info {
+    width: 85%;
+    padding-top: 1rem;
+  }
+
+  #founders #container div .info h3 {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  #founders #container div .info span {
+    color: #0d8bca;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 1250.5px) {
+  #founders #container {
+    padding: 2rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  #founders #container div {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    width: 12rem;
+  }
+
+  #founders #container div .img-box {
+    width: 100%;
+    height: 200px;
+    background: #0d8bca;
+    border-radius: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  #founders #container div .img-box img {
+    width: 100px;
+    object-fit: cover;
+    color: #fff;
+  }
+
+  #founders #container div .info {
+    width: 100%;
+    padding-top: 1rem;
+  }
+
+  #founders #container div .info h3 {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  #founders #container div .info span {
     color: #0d8bca;
     font-weight: 700;
   }

@@ -75,6 +75,22 @@ header .container-xxl li a .fas {
   padding-left: 0.5rem;
 }
 
+header .search-from {
+  padding: 10px;
+  display: block;
+}
+
+header .search-from label {
+  padding-left: 0.5rem;
+}
+
+header .search-from [type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
 .navbar {
   position: relative;
   background: #fff;
@@ -826,7 +842,9 @@ nav .navbar-nav .nav-item a:hover, nav .navbar-nav .nav-item a.active {
   }
 }
 
-.links {margin-bottom: 2rem;}
+.links {
+  margin-bottom: 2rem;
+}
 
 .links .container {
   padding: 0 3rem;
@@ -1017,9 +1035,16 @@ nav .navbar-nav .nav-item a:hover, nav .navbar-nav .nav-item a.active {
 .gallary .container {
   padding: 50px 0;
 }
-
-.gallary .container .title-gallary {
+ .container .title-gallary {
   padding: 2rem;
+}
+
+ .container .title-gallary a {
+  text-decoration: none;
+}
+
+ .container .title-gallary a h3{
+  color: #000;
 }
 
 .gallary .container .title-gallary h3 {
@@ -1371,6 +1396,8 @@ nav .navbar-nav .nav-item a:hover, nav .navbar-nav .nav-item a.active {
   color: #fff;
   border-radius: 20px;
   padding: 2rem 1rem;
+  height: 860px;
+  overflow: hidden;
 }
 
 .membership .container .row div .info-membership-Worker h4 {
@@ -1434,6 +1461,8 @@ nav .navbar-nav .nav-item a:hover, nav .navbar-nav .nav-item a.active {
   color: #fff;
   border-radius: 20px;
   padding: 2rem 1rem;
+  height: 860px;
+  overflow: hidden;
 }
 
 .membership .container .row div .info-membership-affiliated h4 {
@@ -1496,6 +1525,8 @@ nav .navbar-nav .nav-item a:hover, nav .navbar-nav .nav-item a.active {
   color: #222;
   border-radius: 20px;
   padding: 2rem 1rem;
+  height: 860px;
+  overflow: hidden;
 }
 
 .membership .container .row div .info-membership-honorary h4 {
@@ -1559,6 +1590,8 @@ nav .navbar-nav .nav-item a:hover, nav .navbar-nav .nav-item a.active {
   color: #222;
   border-radius: 20px;
   padding: 2rem 1rem;
+  height: 860px;
+  overflow: hidden;
 }
 
 .membership .container .row div .info-membership-Honor h4 {

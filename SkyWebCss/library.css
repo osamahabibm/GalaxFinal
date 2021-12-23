@@ -929,4 +929,342 @@ span.paginator-next {
   }
 }
 
+
+#English {
+  margin: 3rem 0;
+}
+
+#English .container-xxl #container div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+#English .container-xxl #container div .img-box {
+  width: 35%;
+  height: 300px;
+}
+
+#English .container-xxl #container div .img-box img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 4px solid #0d8bca;
+}
+
+#English .container-xxl #container div .info-books {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-top: 2rem;
+  width: 65%;
+}
+
+#English .container-xxl #container div .info-books .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  border-radius: 10px 0 0 10px;
+  padding-left: 0.5rem;
+  width: 100%;
+  height: 192px;
+  overflow: hidden;
+}
+
+#English .container-xxl #container div .info-books .info h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding-top: 1rem;
+  padding-right: 0.5rem;
+  height: 38.4px;
+  overflow: hidden;
+}
+
+#English .container-xxl #container div .info-books .info p {
+  font-size: 14px;
+  padding: 0.5rem;
+  color: #0d8bca;
+  font-weight: 700;
+  height: 73px;
+  overflow: hidden;
+}
+
+#English .container-xxl #container div .info-books .info .btn-libr {
+  background: #0d8bca;
+  width: 100%;
+  margin: 0 0 0.5rem 0;
+}
+
+#English .container-xxl #container div .info-books .info .btn-libr a {
+  color: #fff;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+#English .container-xxl #container div .info-books .info .btn-libr a:hover {
+  background: #0d4561;
+  -webkit-transition: 0.2s linear all;
+  transition: 0.2s linear all;
+}
+
+#English .container-xxl #container div .info-books .Version {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify !important;
+  -ms-flex-pack: justify !important;
+  justify-content: space-between !important;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 0.5rem !important;
+  margin-right: 0.5rem;
+}
+
+#English .container-xxl #container div .info-books .Version p {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+#English .container-xxl #container div .info-books .Version .share a {
+  padding-left: 0.5rem;
+  color: #000;
+}
+
+@media (max-width: 1199.5px) {
+  #English .container-xxl #container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  #English .container-xxl #container div {
+    width: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-left: 1rem;
+  }
+
+  #English .container-xxl #container div .img-box {
+    width: 250px;
+    height: 300px;
+  }
+
+  #English .container-xxl #container div .img-box img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 4px solid #0d8bca;
+  }
+
+  #English .container-xxl #container div .info-books {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 0 !important;
+    width: 100%;
+  }
+
+  #English .container-xxl #container div .info-books .info {
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  #English .container-xxl #container div .info-books .info p {
+    text-align: center;
+  }
+
+  #English .container-xxl #container div .info-books .Version {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: justify !important;
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  #English .container-xxl #container div .info-books .Version p {
+    width: 100%;
+  }
+
+  #English .container-xxl #container div .info-books .Version .share {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 768.5px) {
+  #English .container-xxl #container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  #English .container-xxl #container div {
+    width: 100%;
+    margin-left: 0 !important;
+  }
+
+  #English .container-xxl #container div .info-books {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 0 !important;
+    width: 100%;
+  }
+
+  #English .container-xxl #container div .info-books .info {
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  #English .container-xxl #container div .info-books .info h3 {
+    font-size: 1rem;
+  }
+
+  #English .container-xxl #container div .info-books .info p {
+    text-align: center;
+    font-size: 13px;
+    height: 69px;
+  }
+
+  #English .container-xxl #container div .info-books .Version {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: justify !important;
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  #English .container-xxl #container div .info-books .Version p {
+    width: 100%;
+    font-size: 13px;
+    font-weight: normal;
+  }
+
+  #English .container-xxl #container div .info-books .Version .share {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+
 /*# sourceMappingURL=library.css.map */

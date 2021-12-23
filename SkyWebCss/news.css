@@ -213,6 +213,8 @@ span.paginator-next {
 .row {
   padding: 0;
   margin: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .news-section {
@@ -228,7 +230,7 @@ span.paginator-next {
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
   gap: 1.5rem;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -247,7 +249,7 @@ span.paginator-next {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  width: 19rem;
+  width: 19.5rem;
   -webkit-box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, #d1d5db 0px 0px 0px 1px inset;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, #d1d5db 0px 0px 0px 1px inset;
   border-radius: 10px;
@@ -303,13 +305,19 @@ span.paginator-next {
 
 @media (max-width: 1402.5px) {
   #container .result {
-    width: 17rem !important;
+    width: 16.6rem !important;
+  }
+}
+
+@media (max-width: 1200.5px) {
+  #container .result {
+    width: 18.6rem !important;
   }
 }
 
 @media (max-width: 991.5px) {
   #container .result {
-    width: 100% !important;
+    width: 20.6rem !important;
   }
 }
 
