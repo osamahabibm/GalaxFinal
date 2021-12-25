@@ -24,6 +24,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
     />
+    <link rel="stylesheet" href="SkyWebCss/bootstrap-pop.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
   <body>
     <!-- StartHeader -->
@@ -154,7 +157,7 @@
     <!-- GallaryStart -->
     <div id="gallary" class="tabcontent">
       <section class="gallary-pager">
-        <div class="container">
+        <div class="container center-gallary">
           <div class="title-gallary text-center">
             <a href="">
               <h3>
@@ -165,36 +168,57 @@
             </a>
           </div>
           <div id="container" class="row" paginate="8">
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
+            <!-- ModleFull -->
+            <button
+              class="col-md-6 col-lg-4 col-xl-3"
+              type="button"
+              data-toggle="modal"
+              data-target="#myModal-5"
+            >
               <img src="imgs/1.jpeg" alt="" />
-            </a>
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <img src="imgs/1.jpeg" alt="" />
-            </a>
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <img src="imgs/3.jpeg" alt="" />
-            </a>
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <img src="imgs/4.jpeg" alt="" />
-            </a>
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <img src="imgs/5.jpeg" alt="" />
-            </a>
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <img src="imgs/6.jpeg" alt="" />
-            </a>
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <img src="imgs/7.jpeg" alt="" />
-            </a>
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <img src="imgs/8.jpeg" alt="" />
-            </a>
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <img src="imgs/8.jpeg" alt="" />
-            </a>
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <img src="imgs/5.jpeg" alt="" />
-            </a>
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="myModal-5" role="dialog">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <img src="imgs/7.jpeg" alt="" />
+
+                    <div class="show-links">
+                      <div class="by">
+                        <span class="pa">تم النشر بواسطة - الادارة</span>
+                      </div>
+                      <div class="like">
+                        <span id="times-view">0</span>
+                        <i class="far fa-eye"></i>
+                        <span id="times">0</span>
+                        <a class="likee">
+                          <i class="fa fa-heart" aria-hidden="true"></i>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="article">
+                      <p>
+                        نص تجريبيي نص تجريبيي نص تجريبيي نص تجريبيي نص تجريبيي
+                        نص تجريبيي نص تجريبيي نص تجريبيي نص تجريبيي نص تجريبيي
+                        نص تجريبيي نص تجريبيي نص تجريبيي نص تجريبيي
+                      </p>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-default"
+                      data-dismiss="modal"
+                    >
+                      إغلاق
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ModleFull -->
           </div>
         </div>
       </section>
@@ -204,7 +228,7 @@
     <!-- shaerImgeStart -->
     <div id="shaer" class="tabcontent">
       <section class="gallary-pager">
-        <div class="container">
+        <div class="container center-gallary">
           <div class="title-gallary text-center">
             <a href="">
               <h3>
@@ -220,80 +244,62 @@
           </div>
 
           <div id="container" class="row" paginate="8">
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <div class="img-box-g">
-                <img src="imgs/1.jpeg" alt="" />
-                <div class="star">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
+            <!-- ModleFull -->
+            <button
+              class="col-md-6 col-lg-4 col-xl-3"
+              type="button"
+              data-toggle="modal"
+              data-target="#myModal-6"
+            >
+              <img src="imgs/1.jpeg" alt="" />
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="myModal-6" role="dialog">
+              <div class="modal-dialog">
+                <div class="modal-content vip">
+                  <div class="modal-body">
+                    <img src="imgs/uf0dacpfh5v.jpeg" alt="" />
+                    <div class="star">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+
+                    <div class="show-links">
+                      <div class="by">
+                        <span class="pa">تم النشر بواسطة - الادارة</span>
+                      </div>
+                      <div class="like">
+                        <span id="times-view">0</span>
+                        <i class="far fa-eye"></i>
+                        <span id="times">0</span>
+                        <a class="likee">
+                          <i class="fa fa-heart" aria-hidden="true"></i>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="article">
+                      <p>
+                        نص تجريبيي نص تجريبيي نص تجريبيي نص تجريبيي نص تجريبيي
+                        نص تجريبيي نص تجريبيي نص تجريبيي نص تجريبيي نص تجريبيي
+                        نص تجريبيي نص تجريبيي نص تجريبيي نص تجريبيي
+                      </p>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-default"
+                      data-dismiss="modal"
+                    >
+                      إغلاق
+                    </button>
+                  </div>
                 </div>
-                <span>التقطت في جدة مول</span>
               </div>
-            </a>
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <div class="img-box-g">
-                <img src="imgs/1.jpeg" alt="" />
-                <div class="star">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                <span>التقطت في جدة مول</span>
-              </div>
-            </a>
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <div class="img-box-g">
-                <img src="imgs/1.jpeg" alt="" />
-                <div class="star">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                <span>التقطت في جدة مول</span>
-              </div>
-            </a>
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <div class="img-box-g">
-                <img src="imgs/1.jpeg" alt="" />
-              </div>
-            </a>
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <div class="img-box-g">
-                <img src="imgs/1.jpeg" alt="" />
-              </div>
-            </a>
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <div class="img-box-g">
-                <img src="imgs/1.jpeg" alt="" />
-              </div>
-            </a>
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <div class="img-box-g">
-                <img src="imgs/1.jpeg" alt="" />
-              </div>
-            </a>
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <div class="img-box-g">
-                <img src="imgs/1.jpeg" alt="" />
-              </div>
-            </a>
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <div class="img-box-g">
-                <img src="imgs/1.jpeg" alt="" />
-              </div>
-            </a>
-            <a href="PictureDetails.html" class="col-md-6 col-lg-4 col-xl-3">
-              <div class="img-box-g">
-                <img src="imgs/1.jpeg" alt="" />
-              </div>
-            </a>
+            </div>
+            <!-- ModleFull -->
           </div>
         </div>
       </section>
@@ -408,5 +414,13 @@
     ></script>
     <script src="SkyWebJs/paginate.js"></script>
     <script src="SkyWebJs/main.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".likee").click(function () {
+          $(this).toggleClass("heart");
+        });
+      });
+    </script>
   </body>
 </html>

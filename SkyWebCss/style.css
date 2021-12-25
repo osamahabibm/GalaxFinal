@@ -1035,15 +1035,16 @@ nav .navbar-nav .nav-item a:hover, nav .navbar-nav .nav-item a.active {
 .gallary .container {
   padding: 50px 0;
 }
- .container .title-gallary {
+
+.container .title-gallary {
   padding: 2rem;
 }
 
- .container .title-gallary a {
+.container .title-gallary a {
   text-decoration: none;
 }
 
- .container .title-gallary a h3{
+.container .title-gallary a h3 {
   color: #000;
 }
 
@@ -1061,20 +1062,48 @@ nav .navbar-nav .nav-item a:hover, nav .navbar-nav .nav-item a.active {
   font-size: 1.2rem;
 }
 
-.gallary .container .row a {
+
+
+/* lastEdit */
+
+.center-gallary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.gallary .container .row {
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.gallary .container .row button {
   display: block;
   margin-bottom: 1rem;
   border-radius: 10px;
   overflow: hidden;
+  width: 150px;
+  height: 150px;
 }
 
-.gallary .container .row a img {
+
+
+.gallary .container .row button img {
   width: 100%;
-  height: 350px;
+  height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
   border-radius: 10px;
 }
+
+/* lastEdit */
 
 .gallary .container .btn {
   display: -webkit-box;
@@ -1157,13 +1186,18 @@ nav .navbar-nav .nav-item a:hover, nav .navbar-nav .nav-item a.active {
     color: #0d8bca;
   }
 
+
+  /* lastEdit */
+
   .gallary .container .row {
     position: relative;
     margin: 0;
     padding: 0;
+    width: 100%;
   }
 
-  .gallary .container .row a {
+
+  .gallary .container .row button {
     margin: 0.5rem 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1171,15 +1205,12 @@ nav .navbar-nav .nav-item a:hover, nav .navbar-nav .nav-item a.active {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    width: 120px;
+    height: 110px;
   }
 
-  .gallary .container .row a img {
-    width: 350px;
-    height: 350px;
-    -o-object-fit: cover;
-    object-fit: cover;
-    border-radius: 10px;
-  }
+
+  /* lastEdit */
 
   .gallary .container .btn {
     display: -webkit-box;
