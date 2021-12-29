@@ -1,0 +1,75 @@
+.auto_complete2 {
+    color: #efefef;
+    background: #0d8bca;
+    list-style-type: none;
+    margin-bottom: 0;
+    border: none;
+    border-radius: 4px;
+    position: absolute;
+    top: 35px;
+    padding: 5px 0;
+    z-index: 2;
+    border-radius: 5px;
+    display: none;
+    width: 200px;
+}
+
+@media (max-width:552px) {
+    .auto_complete2 {
+        top: 70px;
+    }
+     header form{
+         margin-bottom: .5rem;
+     }
+}
+
+@media (max-width:415px) {
+    .auto_complete2 {
+        top: 85px;
+    }
+}
+
+
+
+.auto_complete2 a {
+    width: 100%;
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    z-index: 3;
+}
+
+.auto_complete2 a:hover {
+    color: #fff;
+    transition: .3s linear all;
+}
+
+
+.searchh {
+    color: rgb(0, 0, 0);
+    padding: 0 10px;
+    border: none;
+    height: 24px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 200px;
+    border-radius: 4px;
+
+}
+
+.sub {
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    padding: 0 10px;
+    height: 24px;
+    background: #0d8bca;
+    color: #fff;
+}
+
+.sub:hover {
+    background: #10435c;
+    transition: .3s linear all;
+}

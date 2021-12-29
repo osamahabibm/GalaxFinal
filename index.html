@@ -1,9 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" dir="rtl">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="Description"
+      content="Author: A.N. Author, Illustrator: P. Picture, Category: Books, Price:  £9.24, Length: 784 pages"
+    />
+    <meta
+      name="google-site-verification"
+      content="+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34="
+    />
+    <meta name="robots" content="noindex,nofollow" />
     <title>Galaxies</title>
     <link rel="stylesheet" href="SkyWebLie/bootasrtap.css" />
     <link
@@ -14,8 +23,10 @@
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
+    <link rel="stylesheet" href="SkyWebCss/bootstrap-pop.css" />
     <link rel="stylesheet" href="SkyWebCss/PopUp.css" />
     <link rel="stylesheet" href="SkyWebCss/style.css" />
+    <link rel="stylesheet" href="SkyWebCss/autoComplete.css" />
     <link rel="stylesheet" href="SkyWebCss/Gallery.css" />
     <link rel="stylesheet" href="SkyWebLie/normliaze.css" />
     <link rel="stylesheet" href="SkyWebLie/hoverSky.css" />
@@ -25,9 +36,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
     />
-    <link rel="stylesheet" href="SkyWebCss/bootstrap-pop.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
   <body>
     <!-- StartHeader -->
@@ -45,9 +53,11 @@
           <a href="contact.html"><i class="fas fa-phone-alt"></i>إتصال بنا</a>
         </li>
 
-        <form action="" class="search-from">
-          <label for="search-box"> <i class="fas fa-search"></i></label>
-          <input type="search" placeholder=" ابحث" id="search-box" />
+        <form>
+          <input type="text" class="searchh" placeholder="" />
+          <ul class="auto_complete2">
+            <a href="research.html">محمود</a>
+          </ul>
         </form>
       </div>
     </header>
@@ -271,12 +281,7 @@
             <!-- Modal -->
             <div class="modal fade modal-center" id="myModal" role="dialog">
               <div class="modal-dialog">
-                <div class="modal-content vip">
-                  <div class="star">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                  </div>
+                <div class="modal-content">
                   <div class="modal-body">
                     <img src="imgs/1.jpeg" alt="" />
 
@@ -328,14 +333,9 @@
             <!-- Modal -->
             <div class="modal fade" id="myModal-1" role="dialog">
               <div class="modal-dialog">
-                <div class="modal-content vip">
+                <div class="modal-content">
                   <div class="modal-body">
                     <img src="imgs/2222.jpeg" alt="" />
-                    <div class="star">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                    </div>
 
                     <div class="show-links">
                       <div class="by">
@@ -424,6 +424,58 @@
               </div>
             </div>
             <!-- ModleFull -->
+
+            <!-- ModleFull -->
+            <button
+              class="col-md-6 col-lg-4 col-xl-3"
+              type="button"
+              data-toggle="modal"
+              data-target="#myModal-10"
+            >
+              <img src="imgs/1.jpeg" alt="" />
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="myModal-10" role="dialog">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <img src="imgs/2.jpeg" alt="" />
+
+                    <div class="show-links">
+                      <div class="by">
+                        <span class="pa">تم النشر بواسطة - الادارة</span>
+                      </div>
+                      <div class="like">
+                        <span id="times-view">0</span>
+                        <i class="far fa-eye"></i>
+                        <span id="times">0</span>
+                        <a class="likee">
+                          <i class="fa fa-heart" aria-hidden="true"></i>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="article">
+                      <p>
+                        نص تجريبيي نص تجريبيي نص تجريبيي نص تجريبيي نص تجريبيي
+                        نص تجريبيي نص تجريبيي نص تجريبيي نص تجريبيي نص تجريبيي
+                        نص تجريبيي نص تجريبيي نص تجريبيي نص تجريبيي
+                      </p>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-default"
+                      data-dismiss="modal"
+                    >
+                      إغلاق
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ModleFull -->
           </div>
           <div class="btn">
             <a href="Gallery.html">المزيد</a>
@@ -464,8 +516,13 @@
             <!-- Modal -->
             <div class="modal fade" id="myModal-3" role="dialog">
               <div class="modal-dialog">
-                <div class="modal-content">
+                <div class="modal-content vip">
                   <div class="modal-body">
+                    <div class="star">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
                     <img src="imgs/4.jpeg" alt="" />
 
                     <div class="show-links">
@@ -1041,7 +1098,8 @@
       </div>
     </footer>
     <!-- FooterEnd -->
-
+    <script src="SkyWebJs/ajaxPop.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script>
       $(document).ready(function () {
         $(".likee").click(function () {
@@ -1053,7 +1111,7 @@
     <!-- JavaScript -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
-
+    <script src="SkyWebJs/autoComplete.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/aos@3.0.0-beta.6/dist/aos.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

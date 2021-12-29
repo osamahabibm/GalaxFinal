@@ -1291,11 +1291,11 @@ nav .navbar-nav .nav-item a:hover, nav .navbar-nav .nav-item a.active {
 }
 
 .associations .container .row a img {
-  width: 180px;
-  height: 70px;
-  -o-object-fit: cover;
-  object-fit: cover;
+  width: 200px;
+  height: 118px;
+  object-fit: contain;
 }
+
 
 .swiper {
   width: 100%;
