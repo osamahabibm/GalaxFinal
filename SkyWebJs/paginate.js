@@ -1,6 +1,8 @@
 /**
  *    paginateIt by Tony Samperi 2018
  */
+
+
  (function ($) {
 
     var classNames = {
@@ -119,7 +121,7 @@
                     <span class='paginator-next'>&nbsp;&gt;</span> \
                 </div> \
             </div> \
-        </div>"):null
+        </div>"):null;
         var insertMethod = "insertAfter";
         if (opts.navBefore == "true") {
             insertMethod = "insertBefore";
@@ -175,6 +177,7 @@
         };
         self.nav("boot");
     };
+ 
 
     $(document).ready(function () {
         $("[paginate]").each(function () {
@@ -193,3 +196,4 @@
         });
     });
 })(jQuery);
+ 

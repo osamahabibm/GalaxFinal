@@ -1318,14 +1318,23 @@ nav .navbar-nav .nav-item a:hover, nav .navbar-nav .nav-item a.active {
   align-items: center;
 }
 
+.swiper-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  box-sizing: content-box;
+  display: flex;
+  align-items: center;
+}
+
 .swiper-slide img {
   display: block;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
-  width: fit-content;
-  height: 122px;
-  -o-object-fit: cover;
-  object-fit: cover;
+  width: 200px;
+  object-fit: contain;
 }
 
 @media (max-width: 991.5px) {
@@ -2094,3 +2103,45 @@ footer .Copyright .container-xxl {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+.banner-div {
+  -ms-flex: 0 0 calc(50% - 7px);
+  flex: 0 0 calc(50% - 7px);
+  max-width: 50%;
+  margin-bottom: 10px;
+}
+
+.banners {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.banner-div img {
+  width: 100%;
+  vertical-align: middle;
+  height: 150px
+}
+
+.main-banners .banner-div {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 30px;
+}
+
+@media (max-width:768px) {
+  .main-banners {
+    position: relative;
+    top: 1rem;
+  }
+
+  .banner-div img {
+    width: 100%;
+    vertical-align: middle;
+    height: 90px;
+    object-fit: contain;
+  }
+}

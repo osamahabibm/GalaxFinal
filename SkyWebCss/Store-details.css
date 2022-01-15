@@ -218,16 +218,17 @@
     padding: 10px;
     padding-right: 0;
     display: flex;
-
+    flex-wrap: wrap;
 }
 
 
 .imgas-list img {
-    width: 130px;
-    object-fit: cover;
-    margin-left: .5rem;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 0.5rem;
+    object-fit: contain;
+    margin-left: 0.5rem;
     cursor: pointer;
-    border: 1px solid #3f5057;
 }
 
 .imgas-list img.active {
@@ -245,7 +246,7 @@
     height: 100%;
     width: 100%;
     outline: none;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .imgas-main img.active,
@@ -281,6 +282,9 @@
     font-size: 1rem;
     color: #0d8bca;
     font-family: "ArbFONTS";
+    height: 150px;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
 .pay {
@@ -349,7 +353,8 @@
 
     .imgas-list img {
         width: 100px;
-        object-fit: cover;
+        height: 100px;
+        object-fit: contain;
         padding: 10px;
         cursor: pointer;
     }
@@ -402,8 +407,9 @@
     }
 
     .imgas-list img {
-        width: 110px;
-        object-fit: cover;
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
         margin-left: .5rem;
         cursor: pointer;
         border: 1px solid #3f5057;
